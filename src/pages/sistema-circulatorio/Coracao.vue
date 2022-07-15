@@ -57,7 +57,7 @@
       padding
       arrows
       class="shadow-1 rounded-borders main"
-      height="500px"
+      height="600px"
     >
       <q-carousel-slide :name="0" :key="0" class="column no-wrap flex-center">
         <q-img

@@ -57,19 +57,19 @@
       padding
       arrows
       class="shadow-1 rounded-borders main"
-      height="600px"
+      :height="$q.platform.is.mobile ? '600px' : '750px'"
     >
       <q-carousel-slide :name="0" :key="0" class="column no-wrap flex-center">
         <q-img
           src="~/assets/images/sistema-circulatorio/coracao/1.png"
-          style="width: 300px"
+          :style="$q.platform.is.mobile ? 'width: 300px' : 'width: 550px'"
         ></q-img>
         <div class="q-mt-md text-center">Objetiva 4x</div>
       </q-carousel-slide>
       <q-carousel-slide :name="1" :key="1" class="column no-wrap flex-center">
         <q-img
           src="~/assets/images/sistema-circulatorio/coracao/2.png"
-          style="width: 300px"
+          :style="$q.platform.is.mobile ? 'width: 300px' : 'width: 550px'"
         ></q-img>
         <div class="q-mt-md">
           <div class="row full-width justify-center text-center">
@@ -86,7 +86,7 @@
       <q-carousel-slide :name="2" :key="2" class="column no-wrap flex-center">
         <q-img
           src="~/assets/images/sistema-circulatorio/coracao/3.png"
-          style="width: 300px"
+          :style="$q.platform.is.mobile ? 'width: 300px' : 'width: 550px'"
         ></q-img>
         <div class="q-mt-md">
           <div class="row full-width justify-center text-center">
@@ -109,7 +109,7 @@
       <q-carousel-slide :name="3" :key="3" class="column no-wrap flex-center">
         <q-img
           src="~/assets/images/sistema-circulatorio/coracao/4.png"
-          style="width: 300px"
+          :style="$q.platform.is.mobile ? 'width: 300px' : 'width: 550px'"
         ></q-img>
         <div class="q-mt-md">
           <div class="row full-width justify-center text-center">
@@ -126,7 +126,7 @@
       <q-carousel-slide :name="4" :key="4" class="column no-wrap flex-center">
         <q-img
           src="~/assets/images/sistema-circulatorio/coracao/5.png"
-          style="width: 300px"
+          :style="$q.platform.is.mobile ? 'width: 300px' : 'width: 550px'"
         ></q-img>
         <div class="q-mt-md">
           <div class="row full-width justify-center text-center">
